@@ -2,6 +2,7 @@
 Calculator calc = new Calculator();
 ConsoleHelper ch = new ConsoleHelper();
 Validator vd = new Validator();
+HistoryManager hm = new HistoryManager();
 
 string name = ch.ReadString("Введите ваше имя: ");
 
@@ -17,9 +18,16 @@ int firstNumber = ch.ReadInt("Введите первое число: ");
 int secondNumber = ch.ReadInt("Введите второе число: ");
 
 int resultAdd = calc.Add(firstNumber, secondNumber);
+hm.AddRecord($"{firstNumber} + {secondNumber} = {resultAdd}");
+
 int resultSub = calc.Subtract(firstNumber, secondNumber);
+hm.AddRecord($"{firstNumber} - {secondNumber} = {resultAdd}");
+
 int resultMul = calc.Multiply(firstNumber, secondNumber);
+hm.AddRecord($"{firstNumber} * {secondNumber} = {resultAdd}");
+
 float resultDiv = calc.Divide(firstNumber, secondNumber);
+hm.AddRecord($"{firstNumber} / {secondNumber} = {resultAdd}");
 
 ch.WriteLine($"{firstNumber} + {secondNumber} = {resultAdd}");
 ch.WriteLine($"{firstNumber} - {secondNumber} = {resultSub}");
@@ -31,3 +39,5 @@ if (vd.IsNotZero(secondNumber))
 {
     ch.WriteLine($"{firstNumber} / {secondNumber} = {resultDiv}");
 }
+
+hm.ShowHistory();

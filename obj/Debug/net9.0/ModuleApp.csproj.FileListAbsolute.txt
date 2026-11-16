@@ -1,0 +1,14 @@
+/home/depri/ModuleApp/bin/Debug/net9.0/ModuleApp
+/home/depri/ModuleApp/bin/Debug/net9.0/ModuleApp.deps.json
+/home/depri/ModuleApp/bin/Debug/net9.0/ModuleApp.runtimeconfig.json
+/home/depri/ModuleApp/bin/Debug/net9.0/ModuleApp.dll
+/home/depri/ModuleApp/bin/Debug/net9.0/ModuleApp.pdb
+/home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.AssemblyInfoInputs.cache
+/home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.AssemblyInfo.cs
+/home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.csproj.CoreCompileInputs.cache
+/home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.dll
+/home/depri/ModuleApp/obj/Debug/net9.0/refint/ModuleApp.dll
+/home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.pdb
+/home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.genruntimeconfig.cache
+/home/depri/ModuleApp/obj/Debug/net9.0/ref/ModuleApp.dll

@@ -12,3 +12,4 @@
 /home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.pdb
 /home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.genruntimeconfig.cache
 /home/depri/ModuleApp/obj/Debug/net9.0/ref/ModuleApp.dll
+/home/depri/ModuleApp/obj/Debug/net9.0/ModuleApp.sourcelink.json

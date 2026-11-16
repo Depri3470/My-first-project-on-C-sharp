@@ -8,13 +8,13 @@ public class ConsoleHelper
 
     public string ReadString(string message)
     {
-        string outmessage = Console.ReadLine();
-        return outmessage;
+        string messageOut = Console.ReadLine() ?? string.Empty;
+        return messageOut;
     }
 
     public string WriteLine(string message)
     {
-        string outmessage = Console.ReadLine();
-        return outmessage;
+        Console.WriteLine(message);
+        return message;
     }
 }
